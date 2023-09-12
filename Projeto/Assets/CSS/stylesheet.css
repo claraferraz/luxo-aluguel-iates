@@ -1,0 +1,90 @@
+:root {
+    --cinza-escuro: #21272B;
+    --azul-marinho: #1A3243;
+    --azul-claro: #1BB4E8;
+    --off-white: #EBEBEB;
+    --bege: #C6B07F;
+}
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--off-white);
+}
+.header {
+    z-index: 1;
+    background-color: var(--cinza-escuro);
+    color: white;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    position: fixed;
+    width: 92.4%;
+    padding: 20px;
+    margin: 0 60px;
+}
+.logo {
+    display: flex;
+    gap: 25px;
+}
+.logo img {
+    height: 90%;
+}
+.logo h1, .logo h2{
+    font-size: 32px;
+    font-weight:normal;
+    font-style: italic;
+}
+.logo h1, #pg-atual {
+    color: var(--azul-claro)
+}
+.menu-links {
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+.menu-links li {
+    border-right: 0.5px solid white;
+}
+.menu-links li:last-of-type {
+    border-right: none;
+}
+.menu-links li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 30px;
+}
+main {
+    background-color: white;
+    margin: 0 60px;
+}
+.foto-principal {
+    padding-top: 114px;
+    position: relative;
+}
+.foto-principal .barco-principal {
+    width: 100%
+}
+.box-transp {
+    width: 300px;
+    position: absolute;
+    right: 75px;
+    top: 435px;
+    background-color: hwb(205 10% 74% / 0.9);
+    color: white;
+}
+.box-transp h3 {
+    text-align: left;
+    font-size: 35px;
+    font-weight: normal;
+    font-style: italic;
+}
+footer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--off-white);
+}
