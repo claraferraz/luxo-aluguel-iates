@@ -139,6 +139,7 @@ main {
 }
 .destinos .barco {
     width: 100%;
+    height: 291px;
     margin-bottom: 40px;
 }
 .barcos-grid {
