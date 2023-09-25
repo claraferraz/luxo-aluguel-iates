@@ -66,7 +66,7 @@ body {
 }
 main {
     background-color: white;
-    margin:0 auto;
+    margin: 0 auto;
     width: 1200px;
 }
 .foto-principal {
@@ -85,7 +85,6 @@ main {
     background-color: hsla(205, 44%, 9%, 0.70);
     color: white;
     font-style: italic;
-    text-align: left;
 }
 .box-transp h3 {
     font-size: 35px;
@@ -94,7 +93,7 @@ main {
 .box-transp-logo {
     margin-top: 30px;
     display: flex;
-    gap: 10px;
+    gap: 15px;
     align-items: center;
     font-size: 23px;
 }
@@ -109,7 +108,7 @@ main {
 .section-box {
     display: flex;
     gap: 50px;
-    padding: 15px 30px;
+    padding: 15px 30px 55px 30px;
 }
 .section-titulos {
     display: flex;
@@ -121,9 +120,13 @@ main {
 .destinos .section-titulos {
     background-color: var(--azul-claro);
 }
-.section-titulos .icons {
+.destinos .section-titulos .icons {
     height: 45px;
     margin: 1px 10px 1px 5px;
+}
+.nossa-frota .section-titulos .icons {
+    height: 40px;
+    margin: 3px 10px 4px 5px;
 }
 .section-titulos h3, .section-box h4 {
     font-weight: 500;
@@ -131,7 +134,7 @@ main {
 }
 .section-box h4 {
     font-size: 25px;
-    margin: 25px 0
+    margin: 25px 0;
 }
 .section-box p {
     font-size: 18px;
@@ -140,7 +143,6 @@ main {
 .destinos .barco {
     width: 100%;
     height: 291px;
-    margin-bottom: 40px;
 }
 .barcos-grid {
     display: grid;
