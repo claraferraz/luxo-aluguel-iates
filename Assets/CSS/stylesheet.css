@@ -162,3 +162,64 @@ main {
     display: flex;
     justify-content: center;
 }
+
+/* para o arquivo de contato */
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+.form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 1200px;
+    height: 75vh;
+}
+.form-box h3 {
+    background-color: var(--azul-claro);
+    color: white;
+    width: 500px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 35px;
+}
+.form {
+    margin: 15px;
+    width: 400px;
+    font-size: 18px;
+}
+.form label {
+    display: block;
+}
+.form .input {
+    width: 100%;
+    padding: 7px;
+    font-size: 15px;
+    margin: 7px;
+}
+.form #mensagem {
+    height: 100px;
+}
+.button-box {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+.button-box button {
+    width: 120px;
+    height: 25px;
+    font-size: 15px;
+    border: 1px solid var(--off-white-footer);
+    cursor: pointer;
+}
+.clear-btn {
+    background-color: var(--bege);
+}
+.send-btn {
+    background-color: var(--azul-claro);
+}
