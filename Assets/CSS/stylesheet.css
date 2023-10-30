@@ -10,6 +10,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 body {
     background-color: var(--off-white);
@@ -40,7 +41,7 @@ body {
     height: 90%;
 }
 .logo h1, .logo h2{
-    font-size: 32px;
+    font-size: 30px;
     font-weight:normal;
     font-style: italic;
 }
@@ -87,7 +88,7 @@ main {
     font-style: italic;
 }
 .box-transp h3 {
-    font-size: 35px;
+    font-size: 32px;
     font-weight: normal;
 }
 .box-transp-logo {
@@ -95,11 +96,11 @@ main {
     display: flex;
     gap: 15px;
     align-items: center;
-    font-size: 23px;
+    font-size: 21px;
 }
 .box-transp-logo .num-ctt {
     color: var(--bege);
-    font-size: 26px;
+    font-size: 25px;
 }
 .box-transp-logo img {
     width: 50px;
@@ -115,7 +116,7 @@ main {
     align-items: center;
     background-color: #C6B07F;
     color: white;
-    font-size: 26px;
+    font-size: 24px;
 }
 .destinos .section-titulos {
     background-color: var(--azul-claro);
@@ -133,11 +134,11 @@ main {
     font-style: italic;
 }
 .section-box h4 {
-    font-size: 25px;
+    font-size: 22px;
     margin: 25px 0;
 }
 .section-box p {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 40px;
 }
 .destinos .barco {
@@ -152,9 +153,11 @@ main {
 }
 .footer{
     width: 1200px;
-    padding: 20px;
-    text-align: center;
+    padding: 30px;
+    text-align: left;
     background-color: var(--off-white);
+    font-size: 15px;
+    color: #21272bc1
 }
 .footer-box {
     width: 100%;
@@ -162,6 +165,7 @@ main {
     display: flex;
     justify-content: center;
 }
+
 
 /* para o arquivo de contato */
 
@@ -193,13 +197,13 @@ main {
 }
 .form-titulo h3 {
     font-weight: 500;
-    font-size: 30px;
+    font-size: 28px;
     font-style: italic;
 }
 .form {
     margin: 15px;
     width: 400px;
-    font-size: 18px;
+    font-size: 16px;
 }
 .form label {
     display: block;
@@ -207,7 +211,7 @@ main {
 .form .input {
     width: 100%;
     padding: 7px;
-    font-size: 15px;
+    font-size: 13px;
     margin: 7px;
 }
 .form #mensagem {
@@ -221,7 +225,7 @@ main {
 .button-box button {
     width: 120px;
     padding: 3px;
-    font-size: 18px;
+    font-size: 17px;
     color: white;
     border: 1px solid var(--off-white-footer);
     cursor: pointer;
